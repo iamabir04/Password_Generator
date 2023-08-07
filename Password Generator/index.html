@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+        <lord-icon src="https://cdn.lordicon.com/nrzqxhfu.json" trigger="hover" colors="primary:#121331,secondary:#646e78" class="locker">
+        </lord-icon></h1>
+        
+        <div class="password">
+            <input type="text" id="password" readonly>
+            <button type="button" id="generate">Generate Password</button>
+        </div>
+        <br>
+        <div class="options">
+            <label for="length">Password Length </label>
+            <input type="number" id="length" value="8" min="6" max="64">
+            <br>
+            <br>
+            <label for="lowercase"><input type="checkbox"  id="lowercase" checked>Include Lowercase:</label>
+            
+            <label for="uppercase"><input type="checkbox" id="uppercase" checked>Include Uppercase:</label>
+            
+            <label for="numbers"><input type="checkbox" id="numbers" checked>    Include Numbers</label>
+            
+            <label for="symbols"><input type="checkbox" id="symbols">Symbols:</label>
+            
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
