@@ -12,7 +12,6 @@
   <li>Click on the "Generate Password" button to generate a strong and unique password according to your preferences.</li>
   <li>The generated password will be displayed on the screen.</li>
 </ul>
-
 <br>
 
 ## Features
