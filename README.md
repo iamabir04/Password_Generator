@@ -54,3 +54,5 @@ Happy password generating! Stay safe and secure online.</p>
 <br>
 
 # Screenshots
+![1](https://github.com/iamabir04/Password_Generator/assets/108453813/97599781-19f4-4161-ad91-fb596544a842)
+
