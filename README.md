@@ -50,3 +50,7 @@ If you want to contribute to the development of this web app or make improvement
 <p>For any issues, questions, or suggestions, please feel free to open an issue on the project's GitHub repository.<br><br>
 
 Happy password generating! Stay safe and secure online.</p>
+<br>
+<br>
+
+# Screenshots
