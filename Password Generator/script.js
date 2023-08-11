@@ -2,7 +2,6 @@ const lowercaseLetters="abcdefghijklmnopqrstuvwxyz";
 const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numbers="0123456789";
 const symbols = "!@#$%^&*()_+-=[]{}|\;:'\",./<>?";
-
 const lengthEl =document.getElementById("length");
 const lowercaseEl =document.getElementById("lowercase");
 const uppercaseEl =document.getElementById("uppercase");
@@ -16,9 +15,7 @@ generateBtn.addEventListener("click", function(){
     let characters="";
     let password="";
     if(lowercaseEl.checked)
-    {
         characters+=lowercaseLetters;
-    }
     if(uppercaseEl.checked)
     {
         characters += uppercaseLetters;
