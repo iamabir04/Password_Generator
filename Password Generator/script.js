@@ -17,23 +17,12 @@ generateBtn.addEventListener("click", function(){
     if(lowercaseEl.checked)
         characters+=lowercaseLetters;
     if(uppercaseEl.checked)
-    {
         characters += uppercaseLetters;
-    }
     if(numbersEl.checked)
-    {
         characters += numbers;
-    }
     if(symbolsEl.checked)
-    {
         characters += symbols;
-    }
     for(let i=0 ; i<length ; i++)
-    {
         password += characters.charAt(Math.floor(Math.random()*characters.length));
-    }
     passwordEl.value=password;
-
-
-
 });
