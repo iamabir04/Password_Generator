@@ -14,7 +14,6 @@
 </ul>
 <br>
 
-
 ## Features
 <ul>
   <li><b>Customizable password length:</b> Choose any positive integer as the desired password length.</li>
